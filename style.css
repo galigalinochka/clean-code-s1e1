@@ -143,13 +143,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+.button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.button_delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -162,15 +162,15 @@ ul#completed-tasks label {
 
 /* Edit Task */
 
-ul li input[type=text] {
+ul li input[type = "text"] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode input[type = "text"] {
   display: inline-block;
   width: 224px
 }
 
-ul li.edit-mode label {
+.edit-mode label {
   display: none;
 }
